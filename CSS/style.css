@@ -1,0 +1,33 @@
+.contenedor {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 30em;
+  height: 45em;
+}
+.pantalla {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  margin: 1em;
+  color: white;
+}
+.fondo {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.visor {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+}
+.altavoz {
+  background-color: black;
+  color: white;
+}
