@@ -19,8 +19,8 @@
   align-items: center;
 }
 .visor {
-  background-color: grey;
-  color: grey;
+  background-image: url("Images/pokemon-rojo-fuego-6.jpg");
+  background-size: cover;
   width: 26em;
   height: 18em;
 }
@@ -197,14 +197,4 @@ span {
 }
 #r {
   color: blue;
-}
-a:link,
-a:visited {
-  background-color: grey;
-  color: white;
-  width: 26em;
-  height: 18em;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
 }
