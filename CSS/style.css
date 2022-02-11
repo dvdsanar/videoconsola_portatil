@@ -26,6 +26,10 @@
 span {
   color: white;
   padding-top: 0.5em;
+  display: flex;
+}
+.nombreConsola {
+  display: flex;
 }
 .nintendo {
   width: 5em;
@@ -146,4 +150,50 @@ span {
 .centrar {
   font-size: xx-large;
   color: rgb(112, 110, 110);
+}
+.selectstart {
+  width: 7em;
+  height: 3em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: 11em;
+  margin-top: 2em;
+}
+
+.SS {
+  background-color: rgb(112, 110, 110);
+  width: 2.5em;
+  height: 1em;
+  border-radius: 3em;
+}
+.select {
+  margin-right: 1.6em;
+}
+.letraSS {
+  color: black;
+  width: 3.5em;
+  height: 2em;
+  font-size: small;
+}
+.start {
+  margin-left: 0.5em;
+  text-align: center;
+  padding-left: 0.7em;
+}
+#c {
+  margin-left: 0.5em;
+  color: red;
+}
+#o1 {
+  color: blueviolet;
+}
+#l {
+  color: green;
+}
+#o2 {
+  color: yellow;
+}
+#r {
+  color: blue;
 }
