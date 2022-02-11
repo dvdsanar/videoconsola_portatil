@@ -41,6 +41,9 @@ span {
 .inferior {
   width: 28em;
   height: 22em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .cruceta {
   width: 9em;
@@ -117,4 +120,30 @@ span {
   border-bottom: 15px solid transparent;
   border-left: 30px solid rgb(112, 110, 110);
   margin-left: 0.9em;
+}
+.botonesAB {
+  width: 9em;
+  height: 9em;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 6em;
+  margin-top: 3em;
+}
+.botA,
+.botB {
+  background-color: gray;
+  width: 4.5em;
+  height: 4.5em;
+  border-radius: 3em;
+  color: rgb(112, 110, 110);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.botA {
+  margin-left: 4.5em;
+}
+.centrar {
+  font-size: xx-large;
+  color: rgb(112, 110, 110);
 }
