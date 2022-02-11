@@ -1,33 +1,81 @@
 .contenedor {
   background-color: blueviolet;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   width: 30em;
-  height: 45em;
+  height: 50em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .pantalla {
   background-color: black;
+  width: 28em;
+  height: 20em;
+  padding-top: 1em;
+  margin-bottom: 0.3em;
   display: flex;
-  justify-content: center;
-  padding: 1em;
-  margin: 1em;
-  color: white;
-}
-.fondo {
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  border: 0;
+  flex-direction: column;
+  align-items: center;
 }
 .visor {
   background-color: grey;
-  display: flex;
-  justify-content: center;
+  width: 26em;
+  height: 18em;
 }
-.altavoz {
-  background-color: black;
+span {
   color: white;
+  padding-top: 0.5em;
+}
+.nintendo {
+  width: 5em;
+  height: 1.5em;
+  text-align: center;
+  color: rgb(106, 33, 173);
+  padding-top: 0.3em;
+  border: solid 0.3em;
+  border-color: rgb(106, 33, 173);
+  display: inline;
+  border-radius: 2em;
+}
+.inferior {
+  width: 28em;
+  height: 22em;
+}
+.cruceta {
+  width: 9em;
+  height: 9em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.up,
+.down {
+  background-color: gray;
+  width: 3.1em;
+  height: 3em;
+}
+.sides {
+  background-color: gray;
+  width: 9em;
+  height: 3.1em;
+  display: flex;
+}
+.midPanel,
+.center {
+  width: 3em;
+  height: 3em;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.circulo {
+  background-color: rgb(112, 110, 110);
+  width: 2.5em;
+  height: 2.5em;
+  margin-top: 0.2em;
+  border: solid rgb(66, 66, 66);
+  border-radius: 6em;
 }
