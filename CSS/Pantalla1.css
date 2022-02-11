@@ -19,7 +19,7 @@
   align-items: center;
 }
 .visor {
-  background-image: url("Images/pokemon-rojo-fuego-6.jpg");
+  background-image: url("/Images/pokemon-rojo-fuego-6.jpg");
   background-size: cover;
   width: 26em;
   height: 18em;
@@ -153,7 +153,7 @@ span {
   color: rgb(112, 110, 110);
 }
 .selectstart {
-  width: 7em;
+  width: 8em;
   height: 3em;
   display: flex;
   flex-wrap: wrap;
@@ -170,6 +170,9 @@ span {
 }
 .select {
   margin-right: 1.6em;
+}
+.botonStart {
+  margin-right: 0.7em;
 }
 .letraSS {
   color: black;

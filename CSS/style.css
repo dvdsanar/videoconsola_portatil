@@ -153,7 +153,7 @@ span {
   color: rgb(112, 110, 110);
 }
 .selectstart {
-  width: 7em;
+  width: 8em;
   height: 3em;
   display: flex;
   flex-wrap: wrap;
@@ -171,6 +171,9 @@ span {
 .select {
   margin-right: 1.6em;
 }
+.botonStart {
+  margin-right: 0.7em;
+}
 .letraSS {
   color: black;
   width: 3.5em;
@@ -178,7 +181,7 @@ span {
   font-size: small;
 }
 .start {
-  margin-left: 0.5em;
+  margin-left: 0.9em;
   text-align: center;
   padding-left: 0.7em;
 }
