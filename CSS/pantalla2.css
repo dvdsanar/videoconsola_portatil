@@ -21,8 +21,9 @@
   align-items: center;
 }
 .visor {
-  background-image: url("/Images/pokemon-rojo-fuego-6.jpg");
-  background-size: cover;
+  background-image: url("/Images/starters.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 26em;
   height: 18em;
 }
@@ -149,6 +150,7 @@ span {
 }
 .botA {
   margin-left: 4.5em;
+  color: rgb(66, 66, 66);
 }
 .centrar {
   font-size: xx-large;
@@ -205,9 +207,9 @@ span {
 }
 a:link,
 a:visited {
-  background-color: rgb(112, 110, 110);
-  width: 2.5em;
-  height: 1em;
+  background-color: gray;
+  width: 4.5em;
+  height: 4.5em;
   border-radius: 3em;
   text-align: center;
   text-decoration: none;

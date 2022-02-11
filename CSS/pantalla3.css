@@ -21,8 +21,9 @@
   align-items: center;
 }
 .visor {
-  background-image: url("/Images/pokemon-rojo-fuego-6.jpg");
-  background-size: cover;
+  background-image: url(/Images/charmander.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 26em;
   height: 18em;
 }
@@ -183,7 +184,7 @@ span {
   font-size: small;
 }
 .start {
-  margin-left: 0.5em;
+  margin-left: 0.9em;
   text-align: center;
   padding-left: 0.7em;
 }
@@ -205,10 +206,11 @@ span {
 }
 a:link,
 a:visited {
-  background-color: rgb(112, 110, 110);
-  width: 2.5em;
-  height: 1em;
+  background-color: gray;
+  width: 4.5em;
+  height: 4.5em;
   border-radius: 3em;
+  margin-left: 4.5em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
